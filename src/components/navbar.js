@@ -2,9 +2,12 @@ import React from 'react'
 
 
 const navbar = () =>{
-    "Hello World"
+    return(
+        <header>
+   <h1> "Hello World" </h1>
+   </header>
+    );
 }
-
 
 
 
