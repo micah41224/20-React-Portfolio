@@ -184,6 +184,11 @@ a {
   color: black;
 }
 
+.about-img {
+  height: 20rem;
+  width: 20rem;
+}
+
 .picture-text {
   position: absolute;
   bottom: 20%;

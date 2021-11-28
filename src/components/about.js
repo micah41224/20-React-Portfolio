@@ -1,14 +1,15 @@
 import React from 'react';
+import aboutImg from "../assets/images/profile-pic-2.png";
 
 const about = () => {
     return (
         <div className="container py-5 about-container">
            <div className="row text-center">
-               {/* <div className="col-lg-6 col-xs-12">
+               <div className="col-lg-6 col-xs-12">
                     <div className="photo-wrap mb-5">
-                        <img className="about-img" src={author} alt="author"></img>
+                        <img className="about-img" src={aboutImg} alt="aboutImg"></img>
                     </div>
-               </div> */}
+               </div>
                <div className="col-lg-6 col-xs-12">
                     <h1 className="about">
                        About
