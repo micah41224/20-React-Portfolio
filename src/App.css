@@ -1,3 +1,13 @@
+html {
+  position: relative;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -53,6 +63,7 @@ h1 {
   color: black;
   background-color: rgb(117, 127, 134);
   padding: 10px;
+  text-align: center;
 }
 
 h2 {
@@ -61,6 +72,11 @@ h2 {
 
 body {
   background-color: rgb(152, 156, 158);
+  align-content: center;
+  /* background-image: url(https://images.unsplash.com/photo-1582789829727-39505f4e6f94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80);
+  margin: 0;
+  background-size: cover;
+  background-position: 50% 50%; */
 }
 
 .col-sm {
@@ -92,14 +108,29 @@ body {
   border-bottom: 10px solid black;
 }
 
+.footerRow {
+  justify-content: center;
+  width: 100%;
+}
+
+.footerCol {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.projIcon {
+  font-size: 36px;
+  padding-right: 20px;
+}
+
 .container {
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
   /* padding: 50px; */
   height: 100%;
-  /* width: 75%; */
-  display: inline-block;
+  width: 100%;
+  /* display: inline-block; */
   /* border-left: 5px solid black; */
 }
 
@@ -126,10 +157,10 @@ body {
   padding-left: 15px;
 }
 
-.float-left {
+/* .float-left {
   float: left;
   margin-right: 50px;
-}
+} */
 
 .float-right {
   float: right;
@@ -140,6 +171,13 @@ footer {
   background-color: rgb(119, 190, 238);
   margin-left: auto;
   margin-right: auto;
+}
+
+.footerCont {
+  /* display: flex;
+  align-items: flex-start;
+  display: inline-block; */
+  width: 100%;
 }
 
 #footerDiv {
@@ -189,6 +227,22 @@ a {
   width: 20rem;
 }
 
+.aboutContainer {
+  background-color: rgb(119, 190, 238);
+  border: black 1px solid;
+  border-radius: 25px;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 40px;
+}
+
+.aboutText {
+  background-color: whitesmoke;
+  padding: 18px;
+}
+
 .picture-text {
   position: absolute;
   bottom: 20%;
@@ -207,9 +261,9 @@ a {
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-/* .topnav #myLinks {
+.topnav #myLinks {
   display: none;
-} */
+}
 
 /* Style navigation menu links */
 .topnav a {
@@ -272,6 +326,14 @@ a {
 @media (max-width: 800px) {
   .flex-item {
     flex: 100%;
+  }
+
+  .about-img {
+    width: auto;
+  }
+
+  #active {
+    font-size: 150%;
   }
 }
 

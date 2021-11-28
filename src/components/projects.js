@@ -3,21 +3,21 @@ import weather from "../assets/images/weatherdashboardtestsize.png";
 import workDay from "../assets/images/workdayschedulertestsize.png";
 import quiz from "../assets/images/codingquiztestsize.png";
 import passwordGen from "../assets/images/passwordgeneratortestsize.png";
-const styles = {
-    workTitle: {
-        textAlign: "center",
-        textDecoration: "underline",
-        paddingBottom: "10px"
+// const styles = {
+//     workTitle: {
+//         textAlign: "center",
+//         textDecoration: "underline",
+//         paddingBottom: "10px"
 
-    },
-};
+//     },
+// };
 
 const navbar = () =>{
     return(
 <div className="container">
     <div className="row">
         <div className="col-sm">
-            <h2 style={styles.workTitle}>Work</h2>
+            <h1>Projects</h1>
             </div>
     <div className="row">
         <div className="col-sm">
@@ -29,8 +29,8 @@ const navbar = () =>{
                 </a>
             </div>
             <div className="card-footer text-center">
-                <a href="https://github.com/micah41224/06-Server-Side-APIs-Weather-Dashboard" target="_blank"><i className="fa fa-github"></i></a>
-                <a href="https://micah41224.github.io/06-Server-Side-APIs-Weather-Dashboard/" target="_blank"><i className="fa fa-globe" aria-hidden="true"></i></a>
+                <a href="https://github.com/micah41224/06-Server-Side-APIs-Weather-Dashboard" target="_blank"><i className="fa fa-github projIcon"></i></a>
+                <a href="https://micah41224.github.io/06-Server-Side-APIs-Weather-Dashboard/" target="_blank"><i className="fa fa-globe projIcon" aria-hidden="true"></i></a>
             </div>
         </div>
         <div className="col-sm">
@@ -44,8 +44,8 @@ const navbar = () =>{
         </div>
         <div className="card-footer text-center">
             <a href="https://github.com/micah41224/05-Third-Party-APIs-Work-Day-Scheduler" target="_blank"><i
-                    className="fa fa-github"></i></a>
-            <a href="https://micah41224.github.io/05-Third-Party-APIs-Work-Day-Scheduler/" target="_blank"><i className="fa fa-globe"
+                    className="fa fa-github projIcon"></i></a>
+            <a href="https://micah41224.github.io/05-Third-Party-APIs-Work-Day-Scheduler/" target="_blank"><i className="fa fa-globe projIcon"
                     aria-hidden="true"></i></a>
         </div>
         </div>
@@ -62,8 +62,8 @@ const navbar = () =>{
         </div>
         <div className="card-footer text-center">
             <a href="https://github.com/micah41224/04-Web-APIs-Code-Quiz" target="_blank"><i
-                    className="fa fa-github"></i></a>
-            <a href="https://micah41224.github.io/04-Web-APIs-Code-Quiz/" target="_blank"><i className="fa fa-globe"
+                    className="fa fa-github projIcon"></i></a>
+            <a href="https://micah41224.github.io/04-Web-APIs-Code-Quiz/" target="_blank"><i className="fa fa-globe projIcon"
                     aria-hidden="true"></i></a>
         </div>
         </div>
@@ -78,8 +78,8 @@ const navbar = () =>{
         </div>
         <div className="card-footer text-center">
             <a href="https://github.com/micah41224/03-Javascript-Password-Generator" target="_blank"><i
-                    className="fa fa-github"></i></a>
-            <a href="https://micah41224.github.io/03-Javascript-Password-Generator/" target="_blank"><i className="fa fa-globe"
+                    className="fa fa-github projIcon"></i></a>
+            <a href="https://micah41224.github.io/03-Javascript-Password-Generator/" target="_blank"><i className="fa fa-globe projIcon"
                     aria-hidden="true"></i></a>
         </div>
         </div>
