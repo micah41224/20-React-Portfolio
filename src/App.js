@@ -11,7 +11,7 @@ import About from "./components/About/about";
 import Contact from "./components/Contact/contact";
 import Resume from "./components/Resume/resume";
 import Navbar from "./components/Navbar/navbar";
-// import Footer from "./components/footer";
+import Footer from "./components/Footer/footer";
 // import Contact from "./components/Contact/contact";
 import Projects from "./components/Projects/projects";
 
@@ -37,6 +37,7 @@ const App = () => {
     <Redirect to="/about" />
     </Switch>
   </main>
+  <Footer/>
 </Router>
   );
 }
