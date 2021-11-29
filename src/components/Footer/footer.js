@@ -7,9 +7,9 @@ import { FaEnvelope } from 'react-icons/fa';
 
 const footer = () => {
     return(
-        <div>
-        <div>
-        <div className="container footerCont">
+        // <div>
+        // <div>
+        // <div className="container footerCont">
             <div className="row footerRow">
             <div className="col-xs footerCol">
                 <h3 className="footerButtons"><a href="mailto:micah41224@gmail.com"> <FaEnvelope className="icons"/></a></h3>
@@ -22,9 +22,9 @@ const footer = () => {
             </div>
             </div>
            
-            </div>
-    </div>
-        </div>
+            // </div>
+    // </div>
+    //     </div>
     )
 }
 
