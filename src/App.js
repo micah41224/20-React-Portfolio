@@ -1,22 +1,43 @@
 // import logo from './logo.svg';
 import React from "react";
-import './App.css';
-import About from "./components/about";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
-// import Contact from "./components/contact";
-import Projects from "./components/projects";
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom';
+// import './App.css';
+import About from "./components/About/about";
+import Contact from "./components/Contact/contact";
+import Resume from "./components/Resume/resume";
+import Navbar from "./components/Navbar/navbar";
+// import Footer from "./components/footer";
+// import Contact from "./components/Contact/contact";
+import Projects from "./components/Projects/projects";
 
 
-function App() {
+const App = () => {
   return (
-    <>
-    <Navbar/>
-    <About/>
-    <Projects/>
-    <Footer/>
-    
-    </>
+<Router>
+  <Navbar/>
+  <main>
+    <Switch>
+    <Route path="/about" exact>
+      <About/>
+    </Route>
+     <Route path="/projects" exact>
+      <Projects/>
+    </Route>
+     <Route path="/contact" exact>
+      <Contact/>
+    </Route>
+     <Route path="/resume" exact>
+      <Resume/>
+    </Route>
+    <Redirect to="/about" />
+    </Switch>
+  </main>
+</Router>
   );
 }
 
