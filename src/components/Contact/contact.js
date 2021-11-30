@@ -68,6 +68,7 @@ const Contact = () => {
 
     return (
     <div className='ContactForm'>
+        <h1 className="contactHeader">Contact Me</h1>
       <div className='container'>
         <div className='row'>
           <div className='col-12 text-center'>
