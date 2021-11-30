@@ -12,9 +12,9 @@ HTML, CSS, Javascript, React, Bootstrap, jQuery, React-hook-form, React-toastify
 
 https://github.com/micah41224/20-react-portfolio
 
-## Link to deployed application on Heroku:
+## Link to deployed application on Github Pages:
 
-https://arcane-temple-30835.herokuapp.com/
+https://micah41224.github.io/20-react-portfolio/
 
 ## Screenshots of application:
 
