@@ -1,15 +1,41 @@
 .icons {
   font-size: 36px;
   padding-right: 10px;
+  color: white;
 }
 
 div.col-sm {
   text-align: center;
+  /* border-radius: 15px; */
+}
+
+.card {
+  border-radius: 15px;
 }
 
 .mainHeader {
   padding-top: 15px;
   padding-bottom: 30px;
+  color: black;
+  font-weight: bolder;
+  font-family: "Permanent Marker", cursive;
+  font-size: 50px;
+  border: black solid 5px;
+  border-radius: 15px;
+  background-color: white;
+  width: 400px;
+  justify-content: center;
+  margin: 25px auto 25px auto;
+}
+
+.curveHeader {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.curveFooter {
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
 }
 
 /* div.card-header {
@@ -32,4 +58,34 @@ div.col-sm {
 .example {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.colSpacing {
+  padding-bottom: 20px;
+}
+
+.cardPad {
+  padding-bottom: 20px;
+}
+
+.card-header {
+  background-color: black;
+  color: white;
+}
+
+.card-footer {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 575px) {
+  .row {
+    margin: 0;
+  }
+}
+
+@media (max-width: 470px) {
+  .mainHeader {
+    width: auto;
+  }
 }
