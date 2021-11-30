@@ -77,7 +77,7 @@ const Navbar = () => {
 
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/projects" exact>
-                            <i className="far fa-clone"></i>Projects
+                            <i className="far fa-clone"></i>Portfolio
                         </NavLink>
                     </li>
 

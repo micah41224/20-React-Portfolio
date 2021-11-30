@@ -25,7 +25,7 @@ const projects = () => {
        <div className="container projCont">
     <div className="row">
         <div className="col-sm">
-            <h1 className="mainHeader">Projects</h1>
+            <h1 className="mainHeader">Portfolio</h1>
             </div>
     <div className="row">
         <div className="col-sm cardPad">
